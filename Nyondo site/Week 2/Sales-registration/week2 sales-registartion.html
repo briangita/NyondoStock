@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nyondo Hardware - Sales Registration</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet"> -->
+
+<link rel="stylesheet" href="week2-salesreg.css">
+
+</head>
+
+<body>
+
+<div class="app">
+
+    <!-- SIDEBAR -->
+    <aside class="sidebar">
+
+        <div class="brand">
+            <h1>Nyondo Hardware</h1>
+            <span>Sales & Inventory System</span>
+        </div>
+
+        <div class="profile-card">
+            <div class="avatar">NH</div>
+
+            <div class="profile-text">
+                <h3>Staff Member</h3>
+                <p>Sales Clerk</p>
+            </div>
+        </div>
+
+        <nav class="menu">
+            <a href="#" class="active">Dashboard</a>
+            <a href="#">Sales Management</a>
+            <a href="#">Supplier Management</a>
+            <a href="#">Stock Management</a>
+            <a href="#">Transport</a>
+        </nav>
+
+    </aside>
+
+
+    <!-- MAIN CONTENT -->
+    <main class="main">
+
+        <section class="form-card">
+
+            <div class="form-title">
+                <h2>Sales Registration</h2>
+                <p>Enter customer sale details</p>
+            </div>
+
+            <form>
+
+                <!-- SALE INFO -->
+                <div class="flex-row">
+
+                    <div class="field">
+                        <label>Sale Date</label>
+                        <input type="date">
+                    </div>
+
+                    <div class="field">
+                        <label>Sales Person</label>
+                        <select>
+                            <option>Select Sales Person</option>
+                            <option>John</option>
+                            <option>Mary</option>
+                            <option>Daniel</option>
+                        </select>
+                    </div>
+
+                </div>
+
+
+                <!-- CUSTOMER DETAILS -->
+                <h3 class="section-title">Customer Details</h3>
+
+                <div class="flex-row">
+
+                    <div class="field">
+                        <label>Name</label>
+                        <input type="text" placeholder="Customer name">
+                    </div>
+
+                    <div class="field">
+                        <label>Phone</label>
+                        <input type="text" placeholder="Phone number">
+                    </div>
+
+                </div>
+
+                <div class="flex-row">
+
+                    <div class="field">
+                        <label>Email</label>
+                        <input type="email" placeholder="Email">
+                    </div>
+
+                    <div class="field">
+                        <label>Customer Type</label>
+                        <select>
+                            <option>Select Type</option>
+                            <option>Retail</option>
+                            <option>Wholesale</option>
+                        </select>
+                    </div>
+
+                </div>
+
+
+                <!-- ITEMS -->
+                <h3 class="section-title">Items</h3>
+
+                <div class="item-row">
+
+                    <div class="field">
+                        <label>Product ID</label>
+                        <input type="text" placeholder="Product ID">
+                    </div>
+
+                    <div class="field">
+                        <label>Quantity</label>
+                        <input type="number">
+                    </div>
+
+                    <div class="field">
+                        <label>Unit Price</label>
+                        <input type="number">
+                    </div>
+
+                </div>
+
+                <div class="item-row">
+
+                    <div class="field">
+                        <label>Product ID</label>
+                        <input type="text" placeholder="Product ID">
+                    </div>
+
+                    <div class="field">
+                        <label>Quantity</label>
+                        <input type="number">
+                    </div>
+
+                    <div class="field">
+                        <label>Unit Price</label>
+                        <input type="number">
+                    </div>
+
+                </div>
+
+
+                <!-- BUTTONS -->
+                <div class="actions">
+
+                    <button type="reset" class="btn cancel">
+                        Cancel
+                    </button>
+
+                    <button type="submit" class="btn submit">
+                        Submit
+                    </button>
+                    <button class="btn print">
+                        Print Invoice
+                    </button>
+
+                </div>
+
+            </form>
+
+        </section>
+
+    </main>
+
+</div>
+
+</body>
+</html>
